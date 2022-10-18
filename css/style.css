@@ -14,6 +14,7 @@
 
 body{
     background-color: #f6f8f9e1;
+    font-family: Arial, Helvetica, sans-serif;
 }
 /* Header */
 
@@ -24,7 +25,6 @@ header{
 
 h1{
     display: inline-block;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 50px;
 }
 
@@ -43,6 +43,8 @@ h1{
 .pulsanti{
     background-color: white;
     height: 70px;
+    padding-left: 50px;
+    padding-top: 25px;
 }
 
 button{
@@ -63,3 +65,47 @@ button{
     background-color: white;
     border:solid 1px;
 }
+
+.down_triangle{
+    font-size: 15px;
+    padding-right: 5px;
+}
+
+.Today{
+    margin-top: 20px;
+}
+
+.Upcoming{
+    margin-top: 20px;
+    padding-bottom: 50px;
+}
+
+.liste{
+    padding-left: 50px;
+    padding-top: 50px;
+    background-color: white;
+    margin-top: 10px;
+    line-height: 2;
+}
+
+ul{
+    list-style: none;
+}
+
+.done{
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 80%;
+    border: solid #aadfd3 1px;
+    color: #aadfd3;
+}
+
+.none{
+    padding: 2px;
+    margin-right: 10px;
+    border-radius: 100px;
+    border: solid red 1px;
+    color:red;
+}
+
+
