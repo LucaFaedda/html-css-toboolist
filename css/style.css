@@ -71,13 +71,19 @@ button{
     padding-right: 5px;
 }
 
+.New_task{
+    line-height: 2.5;
+}
+
 .Today{
     margin-top: 20px;
+    line-height: 2.5;
 }
 
 .Upcoming{
     margin-top: 20px;
     padding-bottom: 50px;
+    line-height: 2.5;
 }
 
 .liste{
@@ -85,7 +91,7 @@ button{
     padding-top: 50px;
     background-color: white;
     margin-top: 10px;
-    line-height: 2;
+    
 }
 
 ul{
@@ -108,4 +114,35 @@ ul{
     color:red;
 }
 
+.rectangle{
+    padding: 5px;
+    border-radius: 25px;
+    margin-left: 5px;
+    color: white;
+}
 
+.blu{
+    background-color: #47adf1;
+}
+
+.purple{
+    background-color:#9d74e4 ;
+}
+
+.green{
+    background-color:#64c0a9 ;
+}
+
+.orange{
+    background-color: #f29e33;
+}
+
+.pink{
+    background-color: #d863a1;
+}
+
+.light_green{
+    background-color: #b4cc30;
+}
+
+/* fine main */
