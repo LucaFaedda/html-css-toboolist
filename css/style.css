@@ -6,7 +6,7 @@
 
 /* utilits */
 
-.conteiner{
+.container{
     width: 75%;
     margin: 50px auto;
     text-align: left;
@@ -19,17 +19,20 @@ body{
 /* Header */
 
 header{
-    height: 100px;
+    height: 100%;
     background-color: white;
+    padding: 10px 25px;
 }
 
-h1{
-    display: inline-block;
-    font-size: 50px;
+/* correzzione impostazione logo, con vertical align */
+
+.toboolist{
+        font-size: 50px;
 }
 
 .titolo_logo{
-    padding: 20px;
+    height: 100%;
+    vertical-align: middle;
 }
 
 .dimension_logo{
@@ -97,6 +100,8 @@ ul{
     list-style: none;
 }
 
+/* volendo potevo dare una classe a parte per non riscrivere proprietà in comune */
+
 .done{
     padding: 2px;
     margin-right: 10px;
@@ -113,12 +118,14 @@ ul{
     color:red;
 }
 
+/* modificato dimensione con aggiunta un valore padding */
+
 .rectangle{
-    padding: 5px;
+    padding: 5px 10px;
     border-radius: 25px;
     margin-left: 5px;
     color: white;
-    font-size: 15px;
+    font-size: 12px;
 }
 
 .blu{
